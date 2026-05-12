@@ -1,12 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReciclaTec | Smart E-waste Disposal</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Roni é o melhor professor</h1>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Recicla<span class="highlight">Tec</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#locations">Collection Points</a></li>
+            <li><a href="#learn">Learn</a></li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Smart E-waste Disposal</h1>
+            <p>Join the movement to sustainably recycle your electronic devices. Protect the planet, secure your data, and recover valuable resources.</p>
+            <a href="#locations" class="btn btn-primary">Find a Drop-off</a>
+        </div>
+    </header>
+
+    <!-- Map/Collection Points Section -->
+    <section id="locations" class="map-section">
+        <div class="container">
+            <h2>Find Collection Points</h2>
+            <p>Locate the nearest certified ReciclaTec drop-off center in your area.</p>
+            
+            <div class="map-container" aria-label="Interactive map of collection points">
+                <!-- Placeholder for Map API (e.g., Google Maps, Mapbox) -->
+                <div class="map-placeholder">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h3>Interactive Map integration</h3>
+                    <p>Click below to find your nearest facility</p>
+                    <button class="btn btn-secondary mt-1">Enable Location Services</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational Section -->
+    <section id="learn" class="education-section">
+        <div class="container">
+            <h2>Why Recycle E-waste?</h2>
+            <div class="cards-grid">
+                
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-leaf"></i></div>
+                    <h3>Environmental Protection</h3>
+                    <p>Prevent toxic materials like lead and mercury from contaminating our soil and local water systems.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-recycle"></i></div>
+                    <h3>Resource Recovery</h3>
+                    <p>Recover valuable metals like gold, silver, and copper, drastically reducing the need for new mining.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Data Security</h3>
+                    <p>Ensure your personal and financial data is securely wiped and destroyed before physical recycling begins.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Social Integration -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Recicla<span>Tec</span></div>
+            <p>Empowering a sustainable technological future.</p>
+            
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            
+            <p class="copyright">&copy; 2026 ReciclaTec. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
